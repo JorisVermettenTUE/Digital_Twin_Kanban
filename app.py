@@ -378,6 +378,8 @@ def delete_task_dialog(task):
 
 st.title("🫁 Digital Twin Kanban")
 
+st.error("VERSIE TEST 18 SEPTEMBER")
+
 st.caption(
     "Eén gedeeld bord voor het hele team. "
     "Sleep taken tussen kolommen of klik op Info."
