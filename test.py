@@ -1,0 +1,2 @@
+SPRINTS = [f"Sprint {i}" for i in range(1, 9)]
+print(SPRINTS)

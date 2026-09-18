@@ -1,0 +1,28 @@
+.block-container {
+    padding-top: 1.2rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    max-width: 100%;
+}
+
+/* Breder zijmenu */
+section[data-testid="stSidebar"] {
+    width: 340px !important;
+    min-width: 340px !important;
+}
+
+section[data-testid="stSidebar"] > div {
+    width: 340px !important;
+}
+
+/* Iets minder verticale ruimte */
+section[data-testid="stSidebar"] div[data-testid="stVerticalBlock"] {
+    gap: 0.55rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: -0.02em;
+}
